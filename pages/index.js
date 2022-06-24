@@ -10,7 +10,7 @@ export default function Home() {
     <meta name="description" content="Fastest way to hire a doctor" />
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
     <link rel="icon" type="image/png" href={Icon} />
-    <script src="https://unpkg.com/flowbite@1.4.7/dist/datepicker.js"></script>
+    {/* <script src="https://unpkg.com/flowbite@1.4.7/dist/datepicker.js"></script> */}
   </Head>
     
   )
