@@ -1,31 +1,39 @@
-import React from "react";
+import React, {useState} from "react";
+import {useRouter} from 'next/router'
+import Link from 'next/link'
 import Image from "next/image";
 import logo from "/public/locumlogo.png";
 
 
-export default function navbar() {
-
+export default function Navbar() {
+  const [defaulty,setDefaulty] = useState("")
+  const router = useRouter()
   return (
     <div >
       <nav class=" bg-gradient-to-b from-sky-200 border-gray-200 px-2 sm:px-3 py-1.75 rounded-md dark:bg-gray-800">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="#" class="flex items-center my-1 ">
+        <Link href='/' >
+          <a href="#" class="flex items-center my-1 " onClick={(e)=>router.push('/')}>
+            
             <Image
               src={logo}
               class="mr-2 pr-2 h-6 sm:h-9"
               alt="Locum Logo"
               width="80vw"
               height="80vh"
+              
             />
-            <span class="self-center ml-1 text-2xl font-sans font-semibold whitespace-nowrap dark:text-white">
+            <span class="self-center ml-1 text-3xl font-sans font-semibold whitespace-nowrap dark:text-white">
               Locum
             </span>
           </a>
+          </ Link>
           <div class="flex md:order-2">
 
+            <a class="m-2 mr-3 antialiased underline decoration-cyan-600 cursor-pointer" href="#"> Log In</a>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-lg text-sm px-4 py-2.5 text-center mr-1.5 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-lg text-sm px-4 py-2.5 text-center mr-1 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Get Started
             </button>
