@@ -10,14 +10,17 @@ export default function Signup (){
     console.log(router)
     const {role} = router.query
     console.log("i am "+role)
+
     
-    return (
-        {if(role === "hospital"){
+    
+    return 
+
+        {if(role == "hospital"){
             return <HospitalLoginForm />;
-        }else{
+        }else if(role == "doctor"){
             return <DoctorLoginForm />;
         }}
-    )
+    
 
     
         
