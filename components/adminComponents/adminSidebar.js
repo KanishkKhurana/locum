@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-
+import AdminHeader from './adminHeader'
 import logo from "/public/locumlogo.png";
+import AdminAnnouncement from "./adminAnnouncement";
+import AdminDashboardCard from "./adminDashboardCard";
+import AdminHospitals from "./adminHospitals";
+
 
 export default function AdminSidebar() {
   useEffect(() => {
@@ -51,6 +55,10 @@ export default function AdminSidebar() {
             class="text-[15px] ml-4 w-full bg-transparent focus:outline-none"
           />
         </div> */}
+                <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+          <i class="bi bi-house-door-fill"></i>
+          <span class="text-[15px] ml-4 text-gray-200 font-bold">Dashboard</span>
+        </div>
         <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
           <i class="bi bi-house-door-fill"></i>
           <span class="text-[15px] ml-4 text-gray-200 font-bold">Hospitals</span>
@@ -103,6 +111,15 @@ export default function AdminSidebar() {
   return (
     <div>
       <SidebarComponent />
+      <div class="relative ml-[21vw]">
+      <AdminHeader />
+        <AdminAnnouncement />
+        <div class="flex flex-row justify-around">
+        <AdminDashboardCard name="Hospital" value='31' />
+        <AdminDashboardCard name="Doctors" value='51' />
+        </div>
+        <AdminHospitals />
+      </div>
     </div>
   );
 }

@@ -9,9 +9,10 @@ import AdminSidebar from '../components/adminComponents/adminSidebar'
 export default function Home() {
   return (
     <div class="h-full w-full">
-      <Navbar />
+      {/* <Navbar />
       <Landing />
-      <Footer />
+      <Footer /> */}
+      <AdminSidebar />
       <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
       
     </div>

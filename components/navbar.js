@@ -17,13 +17,13 @@ export default function Navbar() {
             
             <Image
               src={logo}
-              class="mr-2 pr-2 h-6 sm:h-9"
+              class="mr-2 pr-1 h-6 sm:h-9"
               alt="Locum Logo"
               width="80vw"
               height="80vh"
               
             />
-            <span class="self-center ml-1 text-3xl font-sans font-semibold whitespace-nowrap dark:text-white">
+            <span class="self-center ml-1 text-3xl font-sans font-semibold whitespace-nowrap dark:text-white sm:mr-0 hidden md:inline">
               Locum
             </span>
           </a>
@@ -33,7 +33,7 @@ export default function Navbar() {
             <a class="m-2 mr-3 antialiased underline decoration-cyan-600 cursor-pointer" href="#"> Log In</a>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-lg text-sm px-4 py-2.5 text-center mr-1 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-lg text-sm px-2.5 py-2.5 text-center mr-1 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
             >
               Get Started
             </button>
@@ -46,7 +46,7 @@ export default function Navbar() {
             >
               <span class="sr-only">Open main menu</span>
               <svg
-                class="w-6 h-6"
+                class="w-6 h-6 ml-0 px-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"

@@ -12,7 +12,7 @@ export default function Landing() {
 
 
   const ProcessTimeline = () => (
-    <div class="p-12 bg-[#0E185F] h-full">
+    <div class="p-12 bg-[#0E185F] h-full border-rounded-md">
       <h1 class="mb-4 font-sans text-3xl sm:text-4xl font-bold text-slate-50 text-center sm:text-left select-none"> How It Works? </h1>
       <ol class="items-center sm:flex">
         <li class="relative mb-6 sm:mb-0">
