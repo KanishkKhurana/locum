@@ -12,7 +12,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 2,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -24,7 +24,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 3,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -36,7 +36,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 4,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -48,7 +48,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 5,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -60,7 +60,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 6,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -72,7 +72,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 7,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -84,7 +84,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 8,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -96,7 +96,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 9,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -108,7 +108,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 10,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -120,7 +120,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 11,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -132,7 +132,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 12,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -144,7 +144,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 13,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -156,7 +156,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 14,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -168,7 +168,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 15,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -180,7 +180,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 16,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -192,7 +192,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 17,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -204,7 +204,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 18,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -216,7 +216,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 19,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -228,7 +228,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 20,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -240,7 +240,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 21,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -252,7 +252,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 22,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -264,7 +264,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 23,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -276,7 +276,7 @@ export var Hospitals = [
         regNo: 3342
     },
     {
-        hID: 1,
+        hID: 24,
         name: "Medicity",
         address: "dem street, chennai, India",
         state: "Chennai",
@@ -307,7 +307,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 13,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -323,7 +323,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 41,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -339,7 +339,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 51,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -355,7 +355,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 61,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -371,7 +371,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 21,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -387,7 +387,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 341,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -403,7 +403,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 15,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -419,7 +419,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 3451,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -435,7 +435,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 1543,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -451,7 +451,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 167,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -467,7 +467,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        hID: 671,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",

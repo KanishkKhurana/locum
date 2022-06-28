@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "/public/locumlogo.png";
 import Link from "next/link";
 
+
 export default function AdminHeader() {
   const userName = "Admin";
   return (
@@ -29,6 +30,8 @@ export default function AdminHeader() {
           <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
       </div>
+
     </div>
+    
   );
 }
