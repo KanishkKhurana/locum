@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "/public/locumlogo.png";
 import Link from "next/link";
+import AdminAnnouncement from "./adminAnnouncement";
 
 
 export default function AdminHeader() {
@@ -30,7 +31,7 @@ export default function AdminHeader() {
           <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
       </div>
-
+    
     </div>
     
   );

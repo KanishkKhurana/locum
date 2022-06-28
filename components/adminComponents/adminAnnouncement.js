@@ -4,9 +4,9 @@ export default function AdminAnnouncement() {
   return (
     <div class="px-5 mb-5">
     <div class="h-1  md:inline hidden">
-    <div id="default-carousel" class="relative" data-carousel="static">
+    <div id="default-carousel" class="relative bg-gradient-to-r from-cyan-500 to-blue-500" data-carousel="static">
       {/* <!-- Carousel wrapper --> */}
-      <div class="overflow-hidden relative h-56  rounded-lg sm:h-24 xl:h-32 2xl:h-96">
+      <div class="overflow-hidden relative h-56 rounded-lg sm:h-24 xl:h-32 2xl:h-96">
         {/* <!-- Item 1 --> */}
         <div
           class="hidden duration-700 ease-in-out bg-gradient-to-r from-cyan-500 to-blue-500"
@@ -33,7 +33,7 @@ export default function AdminAnnouncement() {
         </div>
         {/* <!-- Item 3 --> */}
         <div
-          class="hidden duration-700 ease-in-out bg-gradient-to-r from-green-400 to-blue-500"
+          class="hidden duration-700 ease-in-out bg-gradient-to-r from-green-300 to-blue-500"
           data-carousel-item
         >
           <span class="absolute text-yellow-200 top-7 left-40 text-[1.5rem] font-semibold text-white -translate-x-1/2 -translate-y-1/2  dark:text-gray-800">
@@ -117,6 +117,7 @@ export default function AdminAnnouncement() {
       </button>
     </div>
     </div>
+    
     </div>
   );
 }

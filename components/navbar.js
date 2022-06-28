@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav class=" bg-gradient-to-b from-sky-200 border-gray-200 px-2 sm:px-3 py-1.75 rounded-md dark:bg-gray-800">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
         <Link href='/' >
-          <a href="#" class="flex items-center my-1 " onClick={(e)=>router.push('/')}>
+          <a href="../pages/index.js" class="flex items-center my-1 " onClick={(e)=>router.push('/')}>
             
             <Image
               src={logo}
