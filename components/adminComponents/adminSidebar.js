@@ -12,17 +12,20 @@ import AdminJobs from "./adminJobs";
 
 export default function AdminSidebar() {
   const [view, setView] = useState("Dashboard")
+  const [sidebar, setSidebar] = useState();
+
+
+
 
   if (typeof window !== "undefined") {
     // browser code
     function dropdown() {
-      document.querySelector("#submenu").classList.toggle("hidden");
-      document.querySelector("#arrow").classList.toggle("rotate-0");
+      setSidebar("hidden rotate-0")
     }
-  
-    function openSidebar() {
-      document.querySelector(".sidebar").classList.toggle("hidden");
-    }
+
+  }
+  function openSidebar() {
+    setSidebar("hidden");
   }
 
 
@@ -30,8 +33,8 @@ export default function AdminSidebar() {
   const SidebarComponent = () => (
     <div>
       <span
-        class="absolute text-white text-4xl top-5 left-4 cursor-pointer"
-           onclick={() => openSidebar()}
+        class="absolute text-white text-4xl top-5 left-4 cursor-pointer ${sidebar}"
+        onclick={() => openSidebar()}
       >
         <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md"></i>
       </span>
@@ -50,7 +53,7 @@ export default function AdminSidebar() {
             </h1>
             <i
               class="bi bi-x cursor-pointer ml-28 lg:hidden"
-               onclick={() => openSidebar()}
+              onclick={() => openSidebar()}
             ></i>
           </div>
           <div class="my-2 bg-gray-600 h-[1px]"></div>
@@ -85,8 +88,8 @@ export default function AdminSidebar() {
         </div>
         <div class="my-4 bg-gray-600 h-[1px]"></div>
         <div
-          class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-           onclick={() => dropdown()}
+          class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white ${sidebar}"
+          onclick={() => dropdown()}
         >
           {/* <i class="bi bi-chat-left-text-fill"></i> */}
           {/* <div class="flex justify-between w-full items-center">
@@ -123,26 +126,15 @@ export default function AdminSidebar() {
   return (
     <div>
       <SidebarComponent />
-      {/* <div class="relative ml-[21vw]">
-      <AdminHeader />
-        <AdminAnnouncement />
-        <div class="flex flex-row justify-around">
-        <AdminDashboardCard name="Hospital" value='31' />
-        <AdminDashboardCard name="Doctors" value='51' />
-        </div>
-        <div class="overflow-x">
-        <AdminHospitals />
-        </div>
-      </div> */}
-        <div class="relative ml-[21vw]">
-          {view =="Dashboard" && <AdminDashboard  />}
+      <div class="relative ml-[21vw]">
+        {view == "Dashboard" && <AdminDashboard />}
         <div class="overflow-x">
 
-          {view =="Hospitals" && <AdminHospitals  />}
-          {view =="Doctors" && <AdminDoctors  />}
-          {view =="Jobs" && <AdminJobs  />}
+          {view == "Hospitals" && <AdminHospitals />}
+          {view == "Doctors" && <AdminDoctors />}
+          {view == "Jobs" && <AdminJobs />}
         </div>
-    </div>
+      </div>
     </div>
   );
 }

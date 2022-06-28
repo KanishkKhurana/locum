@@ -4,7 +4,7 @@ export default function AdminAnnouncement() {
   return (
     <div class="px-5 mb-5">
     <div class="h-1  md:inline hidden">
-    <div id="default-carousel" class="relative bg-gradient-to-r from-cyan-500 to-blue-500" data-carousel="static">
+    <div id="default-carousel" class="relative rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500" data-carousel="static">
       {/* <!-- Carousel wrapper --> */}
       <div class="overflow-hidden relative h-56 rounded-lg sm:h-24 xl:h-32 2xl:h-96">
         {/* <!-- Item 1 --> */}
