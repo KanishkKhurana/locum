@@ -1,18 +1,15 @@
 import React from 'react'
+import DoctorNavbar from "../../components/doctorComponents/doctorNavbar"
 import DoctorDetails from '../../components/doctorComponents/doctorDetails'
-import DoctorJob from '../../components/doctorComponents/doctorJob'
-import DoctorJobDetails from '../../components/doctorComponents/doctorJobDetails'
-import DoctorNavbar from '../../components/doctorComponents/doctorNavbar'
 import DoctorSearch from '../../components/doctorComponents/doctorSearch'
+import DoctorJob from '../../components/doctorComponents/doctorJob'
+import HospitalPostJob from '../../components/hospitalComponents/hospitalPostJob'
 
-
-
-
-export default function Doctor() {
+export default function Hospital() {
   return (
     <div>
-        <DoctorNavbar />
-        <div class="flex justify-evenly flex-col md:flex-row sm:px-4 ">
+      <DoctorNavbar/>
+      <div class="flex justify-evenly flex-col md:flex-row sm:px-4 ">
         <DoctorDetails />
         <div class="mx-4 " >
             <DoctorSearch/>
@@ -27,12 +24,12 @@ export default function Doctor() {
         <DoctorJob />
         <DoctorJob />
         </div>
-
-        <DoctorJobDetails />
+        <HospitalPostJob/>
+        
    
         </div>
       <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
-
+      <script src="../path/to/flowbite/dist/datepicker.js"></script>
 
 
     </div>

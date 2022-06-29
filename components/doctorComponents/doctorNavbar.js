@@ -3,15 +3,15 @@ import {useRouter} from 'next/router'
 import Link from 'next/link'
 import Image from "next/image";
 import logo from "/public/locumlogo.png";
-import DoctorSearchNavbar from "./doctorSearchNavbar";
+
 
 
 export default function DoctorNavbar() {
   const [defaulty,setDefaulty] = useState("")
   const router = useRouter()
   return (
-    <div >
-      <nav class=" bg-gradient-to-b from-sky-200 border-gray-200 px-2 border-4 sm:px-3 rounded-b-3xl dark:bg-gray-800 top=0">
+    <div>
+      <nav class=" bg-gradient-to-b from-sky-200 border-gray-200 md:px-5 border-4 sm:px-3 rounded-b-3xl dark:bg-gray-800 top=0">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
         <Link href='/' >
           <a href="../pages/index.js" class="flex items-center my-1 " onClick={(e)=>router.push('/')}>
@@ -29,7 +29,7 @@ export default function DoctorNavbar() {
             </span>
           </a>
           </ Link>
-          <DoctorSearchNavbar />
+    
           
           <div class="flex md:order-2">
 

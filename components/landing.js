@@ -68,7 +68,7 @@ export default function Landing() {
               Step 2
             </time>
             <h3 class="text-lg font-semibold text-slate-50 dark:text-white mb-2">
-              Enter Details and Submit Documents 
+              Submit KYC Documents 
             </h3>
             <p class="text-base font-normal text-gray-400 dark:text-gray-400">
               Submit your bank details and educational qualifications.
