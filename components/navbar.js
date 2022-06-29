@@ -23,7 +23,7 @@ export default function Navbar() {
               height="80vh"
               
             />
-            <span class="self-center ml-1 text-3xl font-sans font-semibold whitespace-nowrap dark:text-white sm:mr-0 hidden sm:inline ">
+            <span class="self-center ml-1 text-xl md:text-3xl font-sans font-semibold whitespace-nowrap dark:text-white sm:mr-0 ">
               Locum
             </span>
           </a>

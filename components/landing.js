@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Image from "next/image";
-import DoctorImage from "../public/DoctorPhoto.png";
+import DoctorImage from "../public/landingPhoto.jpg";
 import LoginForm from "./loginForm.js"
 import FormFill from './formFill.js'
 
@@ -10,9 +10,16 @@ export default function Landing() {
   const [user, setUser] = useState("hospital");
 
 
+  const WhyUs =() => (
+    <div>
+
+    </div>
+  );
+
+
 
   const ProcessTimeline = () => (
-    <div class="p-12 bg-[#0E185F] h-full border-rounded-md">
+    <div class="p-12 bg-[#0E185F] h-full rounded-xl border-rounded-md">
       <h1 class="mb-4 font-sans text-3xl sm:text-4xl font-bold text-slate-50 text-center sm:text-left select-none"> How It Works? </h1>
       <ol class="items-center sm:flex">
         <li class="relative mb-6 sm:mb-0">
@@ -139,18 +146,19 @@ export default function Landing() {
           </div>
         </div>
   
-        <div class="m-6 my-2 p-4 ml-8 ">
+        <div class="m-3 my-2 p-2 px-0 ml-4 ">
           <Image
             src={DoctorImage}
-            class="mr-2 pr-2 h-6 sm:h-9 rounded-full justify-self-center shadow-xl shadow-sky-300"
+            class="mr-2 pr-2 h-6 sm:h-9 rounded-3xl justify-self-center shadow-xl shadow-sky-300"
             alt="Locum Logo"
-            width="260vw"
+            width="420vw"
             height="340vh"
           />
         </div>
       </div>
   
       <ProcessTimeline />
+      <WhyUs />
     </div>
   );
 
