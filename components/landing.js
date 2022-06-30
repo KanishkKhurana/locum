@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import Image from "next/image";
 import DoctorImage from "../public/landingPhoto.jpg";
+import DoctorImage2 from "../public/landingPhoto2.jpg";
+import DoctorImage3 from "../public/landingPhoto3.jpg";
+import ListPhoto from "../public/listPhoto.png";
 import LoginForm from "./loginForm.js"
 import FormFill from './formFill.js'
 
@@ -11,9 +14,59 @@ export default function Landing() {
 
 
   const WhyUs =() => (
-    <div>
+    
+       <div class="mb-8 h-auto rounded-md bg-[#d1eefe]">
+      <div class="flex flex-row m-4 justify-evenly flex-wrap  ">
+  
+        <div class="m-3 my-2 p-2 px-0 ml-4 ">
+          <Image
+            src={DoctorImage3}
+            class="mr-2 pr-2 h-6 sm:h-9 rounded-3xl justify-self-center "
+            alt="Locum Logo"
+            width="470vw"
+            height="390vh"
+          />
+        </div>
+        <div class="m-4">
+          <h1 class="font-sans font-bold text-left sm:text-left select-none text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            -CHOOSE US ? <br />
+            <span class="  text-4xl sm:text-6xl text-slate-800">
+              Why Locum ?
+            </span>
+          </h1>
+          <div class="w-full ">
+            <div class="flex justify-between m-4">
+                <div class="m-4 ml-0 w-full">
+                <Image src={ListPhoto} class="sm:h-9 justify-self-center " alt="Locum Logo" width="100%" height="100%"/>
+                </div>
+              
+                <p class="max-w-fit break-words font-sans text-sm text-slate-500 select-none">Locum helps you connect with Doctors-On-Demand. It is the quickest
+              interface between doctors and hospitals. Join us today and find a
+              patient that needs your help and heal the world</p>
+              
+            </div>
+            <div class="flex justify-between m-4">
+                <div class="m-4 ml-0 w-full">
+                <Image src={ListPhoto} class=" justify-self-center " alt="Locum Logo" width="100%" height="100%"/>
+                </div>
+              
+                <p class="max-w-fit break-words font-sans text-sm text-slate-500 select-none">Locum helps you connect with Doctors-On-Demand. It is the quickest
+              interface between doctors and hospitals. Join us today and find a
+              patient that needs your help and heal the world</p>
+              
+            </div>
 
+          </div>
+          <div class="mt-3 text-center sm:text-left">
+          <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-left sm:text-left" onClick={() => setActive("registrationFormFill")}>Register Now</button>
+
+  
+          </div>
+        </div>
+      </div>
     </div>
+    
+
   );
 
 
@@ -117,6 +170,7 @@ export default function Landing() {
   );
   
   const FrontBanner = () => (
+    
     <div class="m-5 mb-8 h-auto">
       <div class="flex m-4 justify-evenly flex-row flex-wrap  ">
         <div class="m-4">
@@ -160,6 +214,8 @@ export default function Landing() {
       <ProcessTimeline />
       <WhyUs />
     </div>
+    
+    
   );
 
 
