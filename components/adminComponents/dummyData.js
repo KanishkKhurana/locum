@@ -291,7 +291,7 @@ export var Hospitals = [
 
 export var Doctors = [
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -307,7 +307,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 13,
+        dID: 13,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -323,7 +323,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 41,
+        dID: 41,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -339,7 +339,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 51,
+        dID: 51,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -355,7 +355,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 61,
+        dID: 61,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -371,7 +371,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 21,
+        dID: 21,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -387,7 +387,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 341,
+        dID: 341,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -403,7 +403,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 15,
+        dID: 15,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -419,7 +419,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 3451,
+        dID: 3451,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -435,7 +435,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1543,
+        dID: 1543,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -451,7 +451,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 167,
+        dID: 167,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -467,7 +467,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 671,
+        dID: 671,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -483,7 +483,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -499,7 +499,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -515,7 +515,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -531,7 +531,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -547,7 +547,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -563,7 +563,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -579,7 +579,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -595,7 +595,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -611,7 +611,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -627,7 +627,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -643,7 +643,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -659,7 +659,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -675,7 +675,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -691,7 +691,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -707,7 +707,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -723,7 +723,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -739,7 +739,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -755,7 +755,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -771,7 +771,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -787,7 +787,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
@@ -803,7 +803,7 @@ export var Doctors = [
         speciality: "cardiology"
     },
     {
-        hID: 1,
+        dID: 1,
         firstName: "Ankit",
         lastName: "Sharma",
         email: "ankit@gmail.com",
