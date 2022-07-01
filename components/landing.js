@@ -6,11 +6,23 @@ import DoctorImage3 from "../public/landingPhoto3.jpg";
 import ListPhoto from "../public/listPhoto.png";
 import LoginForm from "./loginForm.js"
 import FormFill from './formFill.js'
+import {useRouter} from 'next/router'
 
 
 export default function Landing() {
   const [active, setActive] = useState("landing");
-  const [user, setUser] = useState("hospital");
+
+  const Router = useRouter();
+  
+
+  // const backToLanding =() =>{
+  //   // {active === "registrationFormFill" ? setActive("landing"):setActive("registrationFormFill")}
+  //   if (active==="landing") {
+  //     setActive("registrationFormFill")
+  //   } else if (active=== "registrationFormFill"){
+  //     setActive("landing")
+  //   }
+  // }
 
 
   const WhyUs =() => (
@@ -58,7 +70,7 @@ export default function Landing() {
 
           </div>
           <div class="mt-3 text-center sm:text-left">
-          <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-left sm:text-left" onClick={() => setActive("registrationFormFill")}>Register Now</button>
+          <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-left sm:text-left" onClick={() => Router.push('/signup/register')}>Register Now</button>
 
   
           </div>
@@ -190,9 +202,9 @@ export default function Landing() {
             </p>
           </div>
           <div class="mt-3 text-center sm:text-left">
-          <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-left sm:text-left" onClick={() => setActive("registrationFormFill")}>Register Now</button>
+          <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-left sm:text-left" onClick={() => Router.push('/signup')}>Register Now</button>
           <a >
-            <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500/50 dark:focus:ring-blue-800" onClick={() => setActive("loginFormFill")} >
+            <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500/50 dark:focus:ring-blue-800" onClick={() => Router.push('/login')} >
               Log In
             </button>
           </a>
@@ -235,7 +247,7 @@ export default function Landing() {
     active === "loginFormFill" && <LoginForm />
   }
   {
-    active === "registrationFormFill" && <FormFill />
+    active === "registrationFormFill" && <FormFill  />
   }
  
     </div>

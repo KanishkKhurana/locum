@@ -1,13 +1,16 @@
 import React , {useState} from "react";
+import {useRouter} from 'next/router'
 
 export default function loginForm() {
 
   const [active, setActive] = useState("");
+  const Router = useRouter();
 
 
 
   return (
     <div class="flex  justify-center ">
+        
      
 <div class="my-8 p-4 max-w-lg bg-white rounded-lg border border-gray-200 shadow-2xl sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
     <form class="space-y-6" action="#">
@@ -28,13 +31,16 @@ export default function loginForm() {
                 </div>
                 <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
             </div>
-            <a href="#" class="ml-1 text-sm text-blue-700 hover:underline dark:text-blue-500">  Lost Password?</a>
         </div>
         <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Log In</button>
         <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
             Not registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500" onClick={() => setActive("registrationFormFill") }>Create account</a>
         </div>
+        <a href="#" class=" text-sm text-blue-700 hover:underline dark:text-blue-500">  Lost Password?</a>
+        
     </form>
+    <button class="left-0 md:text-md text-xs" onClick={()=>Router.push('/')}> &larr; Back</button>
+
 </div>
 
     </div>

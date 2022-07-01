@@ -1,8 +1,10 @@
 import React , {useState} from "react";
-import DoctorLoginForm from './doctorLoginForm'
-import HospitalLoginForm from './hospitalLoginForm.js'
+import DoctorLoginForm from '../../components/doctorLoginForm'
+import HospitalLoginForm from '../../components/hospitalLoginForm.js'
 import Link from 'next/link'
 import {useRouter} from 'next/router'
+import Navbar from '../../components/navbar.js'
+import Footer from '../../components/footer.js'
 
 
 export default function FormFill(props) {
@@ -38,9 +40,11 @@ export default function FormFill(props) {
       
       
       <div>
+        <Navbar />
         <Selector />
         {user === "hospital" && <HospitalLoginForm />}
-        {user === "doctor" && <DoctorLoginForm />}  
+        {user === "doctor" && <DoctorLoginForm />}
+        <Footer />  
     </div>      
     
   );

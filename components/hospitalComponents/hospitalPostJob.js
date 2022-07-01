@@ -4,7 +4,7 @@ import React from 'react'
 export default function HospitalPostJob(props) {
   return (
     
-    <div class="md:w-8/12 rounded-lg border border-slate-300 shadow-md h-fit m-2 mt-4 ml-0 p-2 hidden md:inline bg-blue-100">
+    <div class="md:w-8/12 rounded-lg border border-slate-300 shadow-md h-fit m-2 mt-4 ml-0 p-2 hidden md:inline bg-sky-100">
         <div class="flex justify-center mb-3 border-b-[1px] border-slate-400">
             <h1 class="font-sans font-bold text-xl">Post New Job</h1>
         </div>
@@ -26,7 +26,7 @@ export default function HospitalPostJob(props) {
     </div> 
     <div class="mb-4">
         <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Minimum Experience in Years</label>
-        <input type="range" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="3" required="" />
+        <input type="range" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="3" required="true" />
     </div> 
     <div class="mb-6">
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Job Details</label>

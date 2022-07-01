@@ -33,12 +33,12 @@ useEffect(()=>{},)
   const SidebarComponent = () => (
     <div>
       <span
-        class="absolute text-white text-4xl top-5 left-4 cursor-pointer ${sidebar}"
+        class="fixed md:hidden text-white text-4xl z-20 top-5 left-4 cursor-pointer  ${sidebar}"
         onclick={() => openSidebar()}
       >
         <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md"></i>
       </span>
-      <div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[21vw] z-40 overflow-y-auto text-center bg-gray-900  border-r border-cyan-300 ">
+      <div class="h-full top-0 left-0 p-2 w-[21vw] z-40 overflow-y-auto text-center bg-gray-900  border-r border-cyan-300  md:absolute">
         <div class="text-gray-100 text-xl">
           <div class="p-2.5 mt-1 flex items-center">
             <Image
@@ -93,7 +93,7 @@ useEffect(()=>{},)
     <div>
       <SidebarComponent />
       {/* <AdminSidebarComp /> */}
-      <div class="relative ml-[21vw]">
+      <div class="relative md:ml-[21vw]">
         {view == "Dashboard" && <AdminDashboard />}
         <div class="overflow-x">
 
