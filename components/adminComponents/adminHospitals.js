@@ -99,6 +99,7 @@ export default function adminHospitals() {
             <input type="text" placeholder="search" class="w-3/4" value={search} onChange={(e) => setSearch(e.target.value)}></input>
           }
           subHeaderAlign="center"
+          
 
           
           

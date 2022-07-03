@@ -33,7 +33,7 @@ useEffect(()=>{},)
   const SidebarComponent = () => (
     <div>
 
-      <div class="fixed h-full top-0 left-0 p-2 w-[21vw] z-40 overflow-y-auto text-center bg-gray-900  border-r border-cyan-300 ">
+      <div class="fixed h-full top-0 left-0 p-2 w-[18vw] z-40 overflow-y-auto text-center bg-gray-900  border-r border-cyan-300 ">
         <div class="text-gray-100 text-xl">
           <div class="p-2.5 mt-1 flex items-center">
             <Image
@@ -92,12 +92,12 @@ useEffect(()=>{},)
   );
 
   return (
-    <div class="flex flex-row h-full">
-      <div class="shrink">
+    <div class="">
+      <div class="">
       <SidebarComponent />
       </div>
       
-      <div class="grow ml-[21vw]">
+      <div class=" ml-[18vw]">
         {view == "Dashboard" && <AdminDashboard />}
         <div class="overflow-x">
 

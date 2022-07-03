@@ -15,7 +15,7 @@ export default function AdminHeader() {
           class="flex items-center my-1 "
           onClick={(e) => router.push("/")}
         >
-          <span class="self-center ml-1 sm:text-xl md:text-3xl font-sans font-bold whitespace-nowrap dark:text-white sm:mr-0 ">
+          <span class="self-center ml-1 sm:text-2xl md:text-3xl font-sans font-bold whitespace-nowrap dark:text-white sm:mr-0 ">
             Welcome, {userName} !
           </span>
         </a>
