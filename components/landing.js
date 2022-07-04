@@ -243,12 +243,7 @@ export default function Landing() {
       <FrontBanner /> 
       // <ProcessTimeline />
     }
-  {
-    active === "loginFormFill" && <LoginForm />
-  }
-  {
-    active === "registrationFormFill" && <FormFill  />
-  }
+
  
     </div>
   );
