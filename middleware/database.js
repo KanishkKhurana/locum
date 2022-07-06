@@ -1,29 +1,28 @@
-import { MongoClient } from "mongodb";
-import nextConnect from "next-connect";
+import mongoose from "mongoose";
 
-const client = new MongoClient(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+const db={};
+async function dbConnect(){
+  
+   if(db.isConnected)
+   return ;
 
-async function database(req, res, next) {
-  if (!client.isConnected()) {
-    try {
-      let res = await client.connect();
-    } catch (error) {
 
-        console.log("Connection Error Occured")
-    }
-  }
-  req.dbClient = client;
+   try{
+    mongoose.connect(process.env.MONGODB_URI,{
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    });
+    
+    console.log("Database connected"); 
+   }
+   catch(err){
 
-  req.db = client.db("LocumDB");
+   }
 
-  return next();
+   db.isConnected=mongoose.connections[0].readyState;
+
 }
 
-const middleware = nextConnect();
-
-middleware.use(database);
-
-export default middleware;
+return dbConnect();
